@@ -1,0 +1,16 @@
+/* Write your CSS code here */
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cart-logo {
+  height: 100px;
+  width: 100px;
+}
+@media screen and (min-width: 768px) {
+  .cart-logo {
+    height: 25vh;
+    width: 50%;
+  }
+}
